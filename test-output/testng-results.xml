@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[STEP1]]>
+    </line>
+    <line>
+      <![CDATA[STEP2]]>
+    </line>
+    <line>
+      <![CDATA[STEP3]]>
+    </line>
+    <line>
+      <![CDATA[STEP4]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-11-02T18:15:16 IST" name="Suite" finished-at="2023-11-02T18:15:23 IST" duration-ms="7624">
+    <groups>
+    </groups>
+    <test started-at="2023-11-02T18:15:16 IST" name="Test" finished-at="2023-11-02T18:15:23 IST" duration-ms="7624">
+      <class name="commonMethods.Testcases">
+        <test-method is-config="true" signature="getDataFromConfig()[pri:0, instance:commonMethods.Testcases@3b582111]" started-at="2023-11-02T18:15:16 IST" name="getDataFromConfig" finished-at="2023-11-02T18:15:18 IST" duration-ms="2502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDataFromConfig -->
+        <test-method signature="ChatBot2()[pri:0, instance:commonMethods.Testcases@3b582111]" started-at="2023-11-02T18:15:18 IST" name="ChatBot2" finished-at="2023-11-02T18:15:23 IST" duration-ms="4693" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP1]]>
+            </line>
+            <line>
+              <![CDATA[STEP2]]>
+            </line>
+            <line>
+              <![CDATA[STEP3]]>
+            </line>
+            <line>
+              <![CDATA[STEP4]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ChatBot2 -->
+        <test-method is-config="true" signature="closewindow()[pri:0, instance:commonMethods.Testcases@3b582111]" started-at="2023-11-02T18:15:23 IST" name="closewindow" finished-at="2023-11-02T18:15:23 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closewindow -->
+      </class> <!-- commonMethods.Testcases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
