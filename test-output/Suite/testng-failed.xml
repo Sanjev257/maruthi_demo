@@ -5,15 +5,12 @@
     <listener class-name="atu.testng.reports.listeners.ATUReportsListener"/>
     <listener class-name="atu.testng.reports.listeners.ConfigurationListener"/>
     <listener class-name="atu.testng.reports.listeners.MethodListener"/>
-    <listener class-name="mails.CustomTestListener"/>
-    <listener class-name="org.testng.reporters.XMLReporter"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
       <class name="commonMethods.Testcases">
         <methods>
           <include name="ChatBot"/>
-          <include name="closewindow"/>
           <include name="getDataFromConfig"/>
         </methods>
       </class> <!-- commonMethods.Testcases -->

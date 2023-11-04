@@ -1,8 +1,10 @@
 package atu.testng.reports.utils;
 
+import org.testng.Reporter;
+
 import atu.testng.reports.logging.LogAs;
 
-public class Steps {
+public class Steps  {
 	private String description;
 	private String inputValue;
 	private String expectedValue;
@@ -13,9 +15,9 @@ public class Steps {
 	private LogAs logAs;
 	private String Status;
 	
-	
 	public String getDescription() {
 		return this.description;
+		
 	}
 
 	public void setDescription(String paramString) {
