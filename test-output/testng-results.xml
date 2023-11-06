@@ -116,16 +116,16 @@
       <![CDATA[STEP38]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-11-04T22:24:46 IST" name="Suite" finished-at="2023-11-04T22:25:46 IST" duration-ms="60821">
+  <suite started-at="2023-11-06T11:26:55 IST" name="Suite" finished-at="2023-11-06T11:28:32 IST" duration-ms="96692">
     <groups>
     </groups>
-    <test started-at="2023-11-04T22:24:46 IST" name="Test" finished-at="2023-11-04T22:25:46 IST" duration-ms="60821">
+    <test started-at="2023-11-06T11:26:55 IST" name="Test" finished-at="2023-11-06T11:28:32 IST" duration-ms="96692">
       <class name="commonMethods.Testcases">
-        <test-method is-config="true" signature="getDataFromConfig()[pri:0, instance:commonMethods.Testcases@9a7a808]" started-at="2023-11-04T22:24:46 IST" name="getDataFromConfig" finished-at="2023-11-04T22:24:48 IST" duration-ms="2398" status="PASS">
+        <test-method is-config="true" signature="getDataFromConfig()[pri:0, instance:commonMethods.Testcases@2687f956]" started-at="2023-11-06T11:26:55 IST" name="getDataFromConfig" finished-at="2023-11-06T11:26:58 IST" duration-ms="2614" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDataFromConfig -->
-        <test-method signature="ChatBot()[pri:0, instance:commonMethods.Testcases@9a7a808]" started-at="2023-11-04T22:24:48 IST" name="ChatBot" finished-at="2023-11-04T22:25:46 IST" duration-ms="58004" status="PASS">
+        <test-method signature="ChatBot()[pri:0, instance:commonMethods.Testcases@2687f956]" started-at="2023-11-06T11:26:58 IST" name="ChatBot" finished-at="2023-11-06T11:28:32 IST" duration-ms="93685" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[STEP1]]>
@@ -243,7 +243,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- ChatBot -->
-        <test-method is-config="true" signature="closewindow()[pri:0, instance:commonMethods.Testcases@9a7a808]" started-at="2023-11-04T22:25:46 IST" name="closewindow" finished-at="2023-11-04T22:25:46 IST" duration-ms="182" status="PASS">
+        <test-method is-config="true" signature="closewindow()[pri:0, instance:commonMethods.Testcases@2687f956]" started-at="2023-11-06T11:28:32 IST" name="closewindow" finished-at="2023-11-06T11:28:32 IST" duration-ms="85" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closewindow -->
