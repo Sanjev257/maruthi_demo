@@ -19,7 +19,7 @@ import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
 
 public class EmailSender {
-    public static void sendTestSummaryEmail(String recipient, String subject, String content,String path) {
+    public static void sendTestSummaryEmail(String recipient, String subject, String content,String path ) {
         // Set up mail server and properties
         Properties properties = new Properties();
         properties.put("mail.smtp.host", "smtp.gmail.com");
