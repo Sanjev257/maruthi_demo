@@ -51,7 +51,7 @@ public class CustomTestListener implements ITestListener{
         }
         String timeStamp = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss").format(Calendar.getInstance().getTime());
         // Send email with the content
-       // EmailSender.sendTestSummaryEmail("sanjivekumar257@gmail.com", "Maruti Test Summary Report"+" - "+timeStamp, emailContent.toString());
+        EmailSender.sendTestSummaryEmail("sanjivekumar257@gmail.com", "Maruti Test Summary Report"+" - "+timeStamp, emailContent.toString(), timeStamp);
         try {
 			EmailSender.sendTestSummaryEmail("sarath.s@trackdfect.com", "Maruti Test Summary Report"+" - "+timeStamp, emailContent.toString(), System.getProperty("user.dir") +"/test-output/emailable-report.html");
 		} catch (Exception e) {
